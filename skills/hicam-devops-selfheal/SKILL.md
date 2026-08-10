@@ -9,6 +9,12 @@ Keeps the Hermes gateway running reliably with minimal manual intervention.
   process is alive and responding.
 - **Crash log capture** — gateway stdout/stderr is written to `~/.hermes/logs/`
   for post-mortem debugging if something goes wrong.
+- **codex-self-heal.md** — diagnostic playbook for Codex/ChatGPT provider
+  failures (empty responses, expired auth tokens, streaming misconfiguration).
+  Only relevant if you're using Codex as your model provider.
+- **slack-network-recovery.md** — diagnostic playbook for Slack gateway
+  outages caused by macOS/Tailscale routing issues or Socket Mode reconnect
+  failures. Only relevant if you've enabled the Slack platform connector.
 
 ## Manual health check
 Run any time to check gateway status:
