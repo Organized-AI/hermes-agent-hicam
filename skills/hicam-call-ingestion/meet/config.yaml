@@ -1,0 +1,14 @@
+adapter: google_meet
+mode: workspace_transcript_export
+
+# Requires Google Workspace admin transcript export enabled for your account,
+# and OAuth consent for the Drive/Meet scopes below:
+#   https://www.googleapis.com/auth/drive.readonly
+#   https://www.googleapis.com/auth/meetings.space.readonly
+#
+# After install, run:
+#   hermes auth google-meet
+# to complete the OAuth flow. Transcripts are pulled from Google Drive's
+# "Meet Recordings" folder once export is enabled by your Workspace admin.
+
+poll_interval_seconds: 300

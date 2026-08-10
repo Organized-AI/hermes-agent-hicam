@@ -1,0 +1,15 @@
+adapter: zoom
+mode: cloud_recording_transcript
+
+# Requires a Zoom Server-to-Server OAuth app with these scopes:
+#   cloud_recording:read:admin
+#   meeting:read:admin
+# Create one at https://marketplace.zoom.us -> Build App -> Server-to-Server OAuth
+# Fill in credentials below, or set as environment variables:
+#   ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET, ZOOM_ACCOUNT_ID
+client_id: ""
+client_secret: ""
+account_id: ""
+
+# Poll interval for checking new cloud recordings (seconds)
+poll_interval_seconds: 300

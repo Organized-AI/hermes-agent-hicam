@@ -1,0 +1,8 @@
+adapter: manual
+mode: file_drop
+
+# For any call/meeting platform not directly supported (Riverside, Otter.ai, etc.),
+# export or copy the transcript as plain text and drop it into:
+#   ~/.hermes/inbox/
+# Hermes will pick it up automatically on its next poll cycle. No additional
+# configuration is required for this adapter.

@@ -1,0 +1,10 @@
+adapter: granola
+mode: desktop_app_sync
+
+# Requires the Granola desktop app installed and signed in on this machine.
+# Granola stores meeting notes locally; this adapter watches Granola's local
+# notes directory and syncs new transcripts into Hermes' inbox automatically.
+#
+# No credentials needed beyond having Granola running and signed in.
+
+watch_interval_seconds: 60
