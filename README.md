@@ -28,3 +28,7 @@ Then configure `~/.hermes/config.yaml` and the relevant `skills/hicam-call-inges
 
 ## License
 MIT — see LICENSE. Upstream project: https://github.com/NousResearch/hermes-agent
+
+---
+
+Maintained by Jordaaan Hill ([LinkedIn](https://www.linkedin.com/in/jordaaanhill)).
